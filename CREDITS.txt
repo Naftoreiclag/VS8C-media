@@ -1,4 +1,6 @@
-https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
+The following files are derivatives of the provided resources:
+
 skyboxes/PlaceholderSky_dn.jpg
 skyboxes/PlaceholderSky_fr.jpg
 skyboxes/PlaceholderSky_up.jpg
+	https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
