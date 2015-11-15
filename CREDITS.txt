@@ -1,0 +1,4 @@
+https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
+skyboxes/PlaceholderSky_dn.jpg
+skyboxes/PlaceholderSky_fr.jpg
+skyboxes/PlaceholderSky_up.jpg

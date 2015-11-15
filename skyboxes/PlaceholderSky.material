@@ -1,0 +1,16 @@
+material PlaceholderSky
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            depth_write off
+            texture_unit
+            {
+                cubic_texture PlaceholderSky_fr.jpg PlaceholderSky_fr.jpg PlaceholderSky_fr.jpg PlaceholderSky_fr.jpg PlaceholderSky_up.jpg PlaceholderSky_dn.jpg separateUV
+                tex_address_mode clamp
+            }
+        }
+    }
+}
