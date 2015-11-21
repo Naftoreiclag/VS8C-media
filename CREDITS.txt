@@ -1,6 +1,8 @@
-The following files are derivatives of the provided resources:
+Special thanks to the authors of the following CC0-licensed content:
 
-skyboxes/PlaceholderSky_dn.jpg
-skyboxes/PlaceholderSky_fr.jpg
-skyboxes/PlaceholderSky_up.jpg
-	https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
+https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
+	USED TO PRODUCE:
+	skyboxes/PlaceholderSky_dn.jpg
+	skyboxes/PlaceholderSky_fr.jpg
+	skyboxes/PlaceholderSky_up.jpg
+
