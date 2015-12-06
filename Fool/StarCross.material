@@ -1,0 +1,30 @@
+material StarCrossMaterial {
+    technique {
+        pass StarCrossMaterial {
+            vertex_program_ref StarCrossVertex { }
+            fragment_program_ref StarCrossFragment {
+                param_named diffuseTex0 int 0
+                param_named diffuseTex1 int 1
+                param_named furTex int 2
+            }
+            texture_unit {
+                texture Romeo.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+            texture_unit {
+                texture Juliet.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+            texture_unit {
+                texture John.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
