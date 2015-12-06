@@ -3,6 +3,10 @@ uniform mat4 worldviewproj_matrix;
 uniform mat3 inverse_transpose_worldview_matrix;
 uniform vec4 light_position_0;
 uniform vec4 light_diffuse_colour_0;
+uniform vec4 surface_diffuse_colour;
+uniform vec4 surface_ambient_colour;
+
+uniform vec4 ambient_light_colour;
 
 attribute vec4 vertex;
 attribute vec3 normal;
@@ -18,9 +22,10 @@ void main() {
     vec3 sLightDir0 = normalize(light_position_0.xyz);
     vec4 sLightColor0 = max(dot(sNormal, sLightDir0), 0.0) * light_diffuse_colour_0;
     
-    vec4 sDiffuse = sLightColor0;
+    vec4 sDiffuse = sLightColor0 * surface_diffuse_colour;
+    vec4 sAmbient = ambient_light_colour * surface_ambient_colour;
     
-    vary_color = vec4(sDiffuse.xyz, 1.0);
+    vary_color = vec4((sDiffuse + sAmbient).xyz, 1.0);
     
     gl_Position = worldviewproj_matrix * vec4(vertex.xyz, 1.0);
 }

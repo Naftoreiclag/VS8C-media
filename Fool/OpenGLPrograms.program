@@ -1,11 +1,21 @@
 vertex_program DuncanVertex glsl {
     source Duncan.vert
     default_params {
+        // Global matrices
         param_named_auto worldview_matrix worldview_matrix
         param_named_auto worldviewproj_matrix worldviewproj_matrix
         param_named_auto inverse_transpose_worldview_matrix inverse_transpose_worldview_matrix
+        
+        // Light colors
         param_named_auto light_position_0 light_position 0
         param_named_auto light_diffuse_colour_0 light_diffuse_colour 0
+        
+        // Global colors
+        param_named_auto ambient_light_colour ambient_light_colour
+        
+        // Surface colors
+        param_named_auto surface_diffuse_colour surface_diffuse_colour
+        param_named_auto surface_ambient_colour surface_ambient_colour
     }
 }
 fragment_program DuncanFragment glsl {
