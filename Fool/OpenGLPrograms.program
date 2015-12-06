@@ -1,4 +1,4 @@
-fragment_program DuncanVertex glsl
+vertex_program DuncanVertex glsl
 {
     source Duncan.vert
 }
