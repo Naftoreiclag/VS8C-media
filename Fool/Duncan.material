@@ -1,10 +1,7 @@
-material DuncanMaterial {
+import KentMaterial from "Kent.material"
+material DuncanMaterial : KentMaterial {
     technique {
-        pass DuncanMaterial {
-            vertex_program_ref DuncanVertex { }
-            fragment_program_ref DuncanFragment {
-                param_named diffuseTex int 0
-            }
+        pass KentMaterial {
             texture_unit {
                 texture Duncan.jpg
                 tex_address_mode wrap

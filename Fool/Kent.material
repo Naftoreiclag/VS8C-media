@@ -1,0 +1,16 @@
+material KentMaterial {
+    technique {
+        pass KentMaterial {
+            vertex_program_ref KentMaterial { }
+            fragment_program_ref KentMaterial {
+                param_named diffuseTex int 0
+            }
+            texture_unit {
+                texture Kent.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
