@@ -1,3 +1,7 @@
+fragment_program DuncanVertex glsl
+{
+    source Duncan.vert
+}
 fragment_program DuncanFragment glsl
 {
     source Duncan.frag
