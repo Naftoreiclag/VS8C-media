@@ -1,11 +1,16 @@
 Special thanks to the authors of the following CC0-licensed content:
 
 https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
-	USED TO PRODUCE:
-	skyboxes/PlaceholderSky_dn.jpg
-	skyboxes/PlaceholderSky_fr.jpg
-	skyboxes/PlaceholderSky_up.jpg
-
+    USED TO PRODUCE:
+    skyboxes/PlaceholderSky_dn.jpg
+    skyboxes/PlaceholderSky_fr.jpg
+    skyboxes/PlaceholderSky_up.jpg
 http://publicdomaintextures.wordpress.com/galleries/stone-textures/#jp-carousel-155
-	USED TO PRODUCE:
-	Fool/Duncan.jpg
+    USED TO PRODUCE:
+    Fool/Duncan.jpg
+http://pixabay.com/en/blue-sky-night-romantic-259458/
+    USED TO PRODUCE:
+    Fool/Romeo.jpg
+http://publicdomaintextures.wordpress.com/galleries/paper-based/#jp-carousel-25
+    USED TO PRODUCE:
+    Fool/Juliet.jpg
