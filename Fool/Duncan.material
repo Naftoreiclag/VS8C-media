@@ -1,21 +1,11 @@
-material DuncanMaterial 
-{
-    technique
-    {
-        pass DuncanMaterial
-        {
-            vertex_program_ref DuncanVertex
-            {
-                param_named_auto worldview_matrix worldview_matrix
-                param_named_auto worldviewproj_matrix worldviewproj_matrix
-            }
-            fragment_program_ref DuncanFragment
-            {
+material DuncanMaterial {
+    technique {
+        pass DuncanMaterial {
+            vertex_program_ref DuncanVertex { }
+            fragment_program_ref DuncanFragment {
                 param_named diffuseTex int 0
             }
-            
-            texture_unit 
-            {
+            texture_unit {
                 texture Duncan.jpg
                 tex_address_mode wrap
                 scale 1.0 1.0

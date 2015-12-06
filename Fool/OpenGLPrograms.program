@@ -1,8 +1,10 @@
-vertex_program DuncanVertex glsl
-{
+vertex_program DuncanVertex glsl {
     source Duncan.vert
+    default_params {
+        param_named_auto worldview_matrix worldview_matrix
+        param_named_auto worldviewproj_matrix worldviewproj_matrix
+    }
 }
-fragment_program DuncanFragment glsl
-{
+fragment_program DuncanFragment glsl {
     source Duncan.frag
 }
