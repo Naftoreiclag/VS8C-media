@@ -1,0 +1,12 @@
+material Fleance
+{
+	technique
+	{
+		pass
+		{
+			fragment_program_ref MacbethProgram
+			{
+			}
+		}
+	}
+}

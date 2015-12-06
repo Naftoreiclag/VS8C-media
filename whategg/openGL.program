@@ -1,0 +1,4 @@
+fragment_program MacbethProgram glsl
+{
+    source macbeth.frag
+}
