@@ -1,0 +1,15 @@
+material LearMaterial {
+    technique {
+        pass LearMaterial {
+            vertex_program_ref LearVertex { }
+            fragment_program_ref LearFragment {
+                param_named diffuseTex int 0
+            }
+            texture_unit {
+                texture Lear.png 1d
+                tex_address_mode wrap
+                scale 1.0 1.0
+            }
+        }
+    }
+}

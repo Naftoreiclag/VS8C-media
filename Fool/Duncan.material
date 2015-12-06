@@ -1,13 +1,3 @@
-import KentMaterial from "Kent.material"
-material DuncanMaterial : KentMaterial {
-    technique {
-        pass KentMaterial {
-            texture_unit {
-                texture Duncan.jpg
-                tex_address_mode wrap
-                scale 1.0 1.0
-                colour_op modulate
-            }
-        }
-    }
+import LearMaterial from "Lear.material"
+material DuncanMaterial : LearMaterial {
 }
