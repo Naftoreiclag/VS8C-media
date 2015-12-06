@@ -3,6 +3,9 @@ vertex_program DuncanVertex glsl {
     default_params {
         param_named_auto worldview_matrix worldview_matrix
         param_named_auto worldviewproj_matrix worldviewproj_matrix
+        param_named_auto inverse_transpose_worldview_matrix inverse_transpose_worldview_matrix
+        param_named_auto light_position_0 light_position 0
+        param_named_auto light_diffuse_colour_0 light_diffuse_colour 0
     }
 }
 fragment_program DuncanFragment glsl {
