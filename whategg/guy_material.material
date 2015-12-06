@@ -39,11 +39,5 @@ material guy_material
                 colour_op modulate
             }
         }
-		pass Apparition
-		{
-			fragment_program_ref MacbethProgram
-			{
-			}
-		}
     }
 }

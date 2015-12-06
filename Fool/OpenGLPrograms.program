@@ -1,0 +1,4 @@
+fragment_program DuncanFragment glsl
+{
+    source Duncan.frag
+}

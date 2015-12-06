@@ -6,3 +6,6 @@ https://pixabay.com/en/sky-clouds-sky-blue-blue-183869/
 	skyboxes/PlaceholderSky_fr.jpg
 	skyboxes/PlaceholderSky_up.jpg
 
+http://publicdomaintextures.wordpress.com/galleries/stone-textures/#jp-carousel-155
+	USED TO PRODUCE:
+	Fool/Duncan.jpg
