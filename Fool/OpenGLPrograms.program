@@ -2,9 +2,9 @@ vertex_program DuncanVertex glsl {
     source Duncan.vert
     default_params {
         // Global matrices
+        param_named_auto world_matrix world_matrix
         param_named_auto worldview_matrix worldview_matrix
         param_named_auto worldviewproj_matrix worldviewproj_matrix
-        param_named_auto inverse_transpose_worldview_matrix inverse_transpose_worldview_matrix
         
         // Light colors
         param_named_auto light_position_0 light_position 0

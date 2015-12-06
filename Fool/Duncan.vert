@@ -1,6 +1,6 @@
+uniform mat4 world_matrix;
 uniform mat4 worldview_matrix;
 uniform mat4 worldviewproj_matrix;
-uniform mat3 inverse_transpose_worldview_matrix;
 uniform vec4 light_position_0;
 uniform vec4 light_diffuse_colour_0;
 uniform vec4 surface_diffuse_colour;
@@ -18,7 +18,7 @@ varying vec2 vary_uv;
 void main() {
     vary_uv = uv0;
     
-    vec3 sNormal = normalize(normal);
+    vec3 sNormal = vec3(world_matrix * vec4(normal, 0.0));
     vec3 sLightDir0 = normalize(light_position_0.xyz);
     vec4 sLightColor0 = max(dot(sNormal, sLightDir0), 0.0) * light_diffuse_colour_0;
     
